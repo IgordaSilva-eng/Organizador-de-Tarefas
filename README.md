@@ -22,7 +22,7 @@ datetime.
 
 AUTORES:
 
-Igor da Correa;
+Igor Correa;
 
 Mariana Barbosa;
 
