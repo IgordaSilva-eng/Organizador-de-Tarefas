@@ -30,4 +30,4 @@ Maria Gabriela;
 
 Victoria Agatha;
 
-Samara Fernanda.
+Samara Fernandes.
