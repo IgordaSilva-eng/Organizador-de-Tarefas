@@ -24,7 +24,7 @@ AUTORES:
 
 Igor Correa;
 
-Mariana Barbosa;
+Mariana Moreira Barbosa;
 
 Maria Gabriela;
 
