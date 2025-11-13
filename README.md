@@ -28,6 +28,6 @@ Mariana Moreira Barbosa;
 
 Maria Nascimento;
 
-Victoria Agatha;
+Victoria Fagundes;
 
 Samara Fernandes.
