@@ -1,4 +1,5 @@
 # Organizador-de-Tarefas
+
 Um simples, porém funcional, organizador de tarefas feito em Python para a linha de comando. Focado para gerenciar atividades com base em prioridades.
 
 Este projeto foi desenvolvido como uma atividade prática do curso de Ciência da Computação no Centro Universitário Braz Cubas. O objetivo foi aplicar os conceitos de Python em um software funcional e interativo.
@@ -37,6 +38,36 @@ Python 3.13 (ou compatível);
 ​os, para verificar se os arquivos .json existem antes de tentar lê-los;
 
 ​sys, para finalizar o programa de forma controlada (sys.exit()).
+
+🚀 Como Executar
+
+Para rodar este projeto, você precisará ter o Python 3 (idealmente 3.10 ou superior) instalado em seu computador.
+
+1. Clone o Repositório ou Baixe os Arquivos:
+Certifique-se de ter os dois arquivos principais na mesma pasta:
+`index.py` (O script principal que você executa)
+`funcoes_tarefas.py` (O módulo que contém a lógica do programa)
+
+2. Abra seu Terminal:
+Abra seu terminal (Prompt de Comando, PowerShell no Windows, ou Terminal no macOS/Linux) e navegue até a pasta onde você salvou os arquivos.
+
+    ```bash
+    # Exemplo: navegando até a pasta do projeto
+    cd C:\Caminho\Para\Seu\Projeto\Organizador-de-Tarefas
+    ```
+
+3. Execute o Script Principal:
+Digite o comando a seguir para iniciar o programa. Você deve executar o `index.py`, que por sua vez importará as funções do outro arquivo.
+
+    ```bash
+    python index.py
+    ```
+
+4. Primeira Execução (Automática):
+Na primeira vez que você rodar, o script irá notar que os arquivos `tarefas.json` e `tarefas_arquivadas.json` não existem e os criará automaticamente.
+
+5. Use o Menu:
+O menu interativo será exibido no terminal. Basta digitar o número da opção desejada e pressionar "Enter" para usar o sistema.
 
 AUTORES:
 
