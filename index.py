@@ -62,13 +62,14 @@ def main():
             arquivar_tarefas_antigas()
 
         elif opcao == "9":
-            print("\nSalvando dados... 🚀")
+            print("\nSalvando dados... ")
             salvar_dados()
-            print("Sistema finalizado! Até mais 👋\n")
+            print("Sistema finalizado! Até mais \n")
             break
 
         else:
-            print("\n❌ Opção inválida! Tente novamente.\n")
+            print("\n Opção inválida! Tente novamente.\n")
 
 if __name__ == "__main__":
     main()
+
