@@ -1,13 +1,28 @@
 import sys
-import funcoes_tarefas
+from funcoes_tarefas import (
+    carregar_dados,
+    salvar_dados,
+    criar_tarefa,
+    pegar_tarefa,
+    atualizar_prioridade,
+    concluir_tarefa,
+    excluir_tarefa,
+    arquivar_tarefas_antigas,
+    relatorio_completo,
+    relatorio_arquivados,
+    _print_debug
+)
 
 def exibir_menu():
+    """
+    Exibe as opções do menu principal.
+    """
     print("""
 =====================================
         SISTEMA DE TAREFAS
 =====================================
 1 - Criar nova tarefa
-2 - Pegar próxima tarefa
+2 - Pegar próxima tarefa (Verificar Urgência)
 3 - Atualizar prioridade de tarefa
 4 - Concluir tarefa
 5 - Arquivar tarefas antigas (+7 dias)
@@ -19,16 +34,21 @@ def exibir_menu():
     """)
 
 def main():
-    # Inicializa dados e arquivos 
+    """
+    Função principal de execução.
+    """
+    # Debug inicial
+    _print_debug("main")
+
+    # Carregar dados e criar arquivos se necessário
     carregar_dados()
 
     while True:
         exibir_menu()
         opcao = input("Escolha uma opção: ").strip()
 
-        # Validação da opção escolhida
         if opcao not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-            print("\nErro: Opção inválida! Escolha um número do menu.\n")
+            print("\nErro: Opção inválida! Escolha um número de 1 a 9.\n")
             continue
 
         try:
@@ -50,13 +70,12 @@ def main():
                 relatorio_arquivados()
             elif opcao == "9":
                 print("\nSalvando dados... ")
-                salvar_dados()
+                salvar_dados() 
                 print("Sistema finalizado!")
-                sys.exit()
+                sys.exit() 
 
         except Exception as e:
             print(f"Erro inesperado no menu: {e}")
 
 if __name__ == "__main__":
-    _print_debug("main") # Debug no início da execução principal
     main()
