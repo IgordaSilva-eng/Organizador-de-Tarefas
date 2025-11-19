@@ -15,13 +15,13 @@ O sistema opera através de um menu interativo no terminal, oferecendo as seguin
 
 3. ​Atualizar Prioridade: Altera a prioridade de uma tarefa existente usando seu ID único.
 
-​4. Concluir Tarefa: Muda o estado da tarefa "Fazendo" para "Concluída" e registra a data/hora da conclusão.
+4. Concluir Tarefa: Muda o estado da tarefa "Fazendo" para "Concluída" e registra a data/hora da conclusão.
 
 5. ​Arquivar Tarefas Antigas: Realiza uma limpeza no sistema, movendo tarefas "Concluídas" há mais de 7 dias para o estado "Arquivado". Essas tarefas são movidas para o arquivo de histórico (tarefas_arquivadas.json).
 
 6. ​Excluir Tarefa (Exclusão Lógica): Marca uma tarefa existente como "Excluída". A tarefa não é removida da lista principal, mas fica oculta dos relatórios ativos e é movida para o arquivo de histórico.
 
-​7. Relatório Geral (Ativas): Exibe uma lista detalhada de todas as tarefas que não estão 'Arquivadas' ou 'Excluídas'. Para tarefas concluídas, calcula e exibe o tempo total de execução.
+7. Relatório Geral (Ativas): Exibe uma lista detalhada de todas as tarefas que não estão 'Arquivadas' ou 'Excluídas'. Para tarefas concluídas, calcula e exibe o tempo total de execução.
 
 8. ​Relatório de Tarefas Arquivadas: Exibe uma lista de todas as tarefas que estão com o status "Arquivado" (não inclui tarefas "Excluídas").
 
