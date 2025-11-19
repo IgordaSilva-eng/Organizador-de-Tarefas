@@ -71,12 +71,12 @@ O menu interativo será exibido no terminal. Basta digitar o número da opção 
 
 AUTORES:
 
-Igor Correa;
+Igor Correa, 41885163;
 
-Mariana Moreira Barbosa;
+Mariana Moreira Barbosa, 42880726;
 
-Maria Nascimento;
+Maria Nascimento, 43312861;
 
-Victoria Fagundes;
+Victoria Fagundes, 43756042;
 
-Samara Fernandes.
+Samara Fernandes, 43480519.
